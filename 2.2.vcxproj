@@ -127,7 +127,17 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="2.2.cpp" />
+    <ClCompile Include="Driver.cpp" />
+    <ClCompile Include="Dispatcher.cpp" />
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="Avto.cpp" />
+    <ClCompile Include="Route.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Driver.h" />
+    <ClInclude Include="Avto.h" />
+    <ClInclude Include="Dispatcher.h" />
+    <ClInclude Include="Route.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
